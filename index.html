@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div id="grobal-container">
+      <nav class="mobile-menu">
+        <div class="mobile-menu__main">
+          <ul>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="">
+                <span class="main-title about">ABOUT</span>
+              </a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="">
+                <span class="main-title skill">SKILL</span>
+              </a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="">
+                <span class="main-title works">WORKS</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div id="container">
+        <div class="mobile-menu__cover"></div>
+        <div class="nav-trigger"></div>
+        <header class="header">
+          <div class="header__inner">
+            <nav>
+              <ul>
+                <li>
+                  <a href="" class="about">ABOUT</a>
+                </li>
+                <li>
+                  <a href="" class="skill">SKILL</a>
+                </li>
+                <li>
+                  <a href="" class="works">WORKS</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <button class="mobile-menu__btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </header>
+        <section class="section1">
+          <img src="img/img01.jpg" alt="" />
+          <h1>
+            Welcom to<br />
+            My Portfolio Site
+          </h1>
+        </section>
+
+        <section class="section2">
+          <h1 class="section2__title">ABOUT</h1>
+          <div class="section2__inner">
+            <div class="section2__items">
+              <div class="item">
+                <p>Name</p>
+                <p>三輪　翔</p>
+              </div>
+              <div class="item">
+                <p>Age</p>
+                <p>23歳</p>
+              </div>
+              <div class="item">
+                <p>GitHub</p>
+                <p>........</p>
+              </div>
+            </div>
+            <p class="pr">
+              岐阜県大垣市在住、FE志望で勉強と就職活動をしています。
+            </p>
+            <p class="pr">
+              20歳で美容専門学校を卒業し、２年半美容師として勤務したのち、独学でHTML
+              ,CSS,JavaScriptを学びました。現在は、Web関連の書籍を読んだり、コーディングをしたりし、新たな技術を取り入れながら、就職活動をしています
+            </p>
+            <p class="pr">
+              シンプルでわかりやすく、統一感のあるサイト作りや、メンテナンスがしやすいJavaScriptを書くことが得意です。
+            </p>
+          </div>
+        </section>
+        <section class="section3">
+          <h1 class="section3__title">SKILL</h1>
+          <div class="section3__items">
+            <div class="item">
+              <i class="fab fa-html5"></i>
+              <h1>HTML5</h1>
+              <p>
+                わかりやすいクラス名をつけたり、シンプルに書くことで、修正や追加がしやすいようにコーディングすることを心がけています。
+              </p>
+            </div>
+            <div class="item">
+              <i class="fab fa-css3-alt"></i>
+              <h1>CSS3/SCSS</h1>
+              <p>
+                SCSSのBEM記法を使って見やすいコードを書くことを心がけています。<br />TransformやKeyframesを使ったアニメーションの実装が得意です。
+              </p>
+            </div>
+            <div class="item">
+              <i class="fab fa-js"></i>
+              <h1>JavaScript</h1>
+              <p>
+                複雑になりすぎないように、できるだけシンプルでわかりやすく、メンテナンスしやすいコードを心がけています。<br />クラスにしたり、役割ごとにファイルを作ることで、再利用性の高いコードを書いています。
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section4">
+          <h1 class="section4__title">WORKS</h1>
+          <div class="section4__items">
+            <div class="item">
+              <a href="https://modest-euler-f39cbe.netlify.app"
+                >架空サイト１（食料品店）</a
+              >
+              <p>
+                HTML、CSSを勉強して、初めて制作した架空サイトです。デザインに統一感を持たせるために色味やセクションごとの間隔、文字の大きさに気をつけました
+              </p>
+              <p>
+                JavaScriptのクリックイベントの代わりにチェックボックスを使ってモバイルメニューの切り替えを作りました。
+              </p>
+
+              <p>使用言語:HTML、CSS/SCSS</p>
+            </div>
+            <div class="item">
+              <a
+                href="
+              https://optimistic-engelbart-f94dd8.netlify.app"
+                >天気確認サービス</a
+              >
+              <p>
+                Web
+                APIを使った動くものを作りたくて、東京、大阪、札幌、岐阜の現在の天気と気温を確認することができるサービスを作りました。
+              </p>
+              <p>
+                取得した天気の情報をもとに天気を日本語に変換し、背景の画像が天気にあった画像になるように構築しました。
+              </p>
+              <p>使用言語:HTML、CSS/SCSS、JavaScript</p>
+            </div>
+            <div class="item">
+              <a href="https://modest-mclean-bec93d.netlify.app">Todoリスト</a>
+              <p>
+                JavaScriptの学習を一通り終え、学んだことを使って動くものを作りたくてTodoリストを作成しました。
+              </p>
+              <p>
+                JavaScriptはなるべくシンプルな実装を心がけ、見た目もシンプルで用途がわかりやすいかつ、統一感のあるデザインを目指しました。
+              </p>
+              <p>使用言語:HTML、CSS/SCSS、JavaScript</p>
+            </div>
+            <div class="item">
+              <a href="https://thirsty-mestorf-2227f3.netlify.app">架空サイト２（ねこブリーダー紹介サイト）</a>
+              <p>
+                JavaScriptの学習を一通り終え、JavaScriptも使用した架空サイトを制作しました。
+              </p>
+              <p>
+                HTML、CSSでは、全体を通してシンプルかつ統一感のあるサイトに仕上げました。また、文字が降ってくるアニメーションや画像がスライドするなどの実装をし、シンプルのなかに少し遊び心を入れて見ていて飽きない実装を目指しました。
+              </p>
+              <p>
+                JavaScriptでは、スライダーのライブラリを使用したりモバイルメニューの実装をしたりスクロール監視の実装をして、より本格的なサイト制作を目指しました。また、各機能ごとにファイルを分けクラスを作ることで、見やすくメンテナンスしやすいコードを目指しました。
+              </p>
+              <p>使用言語:HTML、CSS/SCSS、JavaScript</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="scripts/main.js" type="module"></script>
+  </body>
+</html>
